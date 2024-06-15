@@ -3,7 +3,7 @@ const express = require('express')
 const app = express();
 
 // routes setting 
-app.get('/', (req,res) => {
+app.get('/admin/', (req,res) => {
     return res.status(200).send('<h1>Hello World! Welcome to ExpressJS App');
 })
 
