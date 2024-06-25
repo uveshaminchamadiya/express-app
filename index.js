@@ -9,5 +9,5 @@ app.get('/', (req,res) => {
 
 // listening server at port 8000 
 app.listen(8000, (req,res) => {
-    console.log("Server listening at: http://localhost:8000");
+    console.log("App is live on port 8000");
 })
